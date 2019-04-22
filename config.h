@@ -2,11 +2,13 @@
 
 // visit io.adafruit.com if you need to create an account,
 // or if you need your Adafruit IO key.
-#define IO_USERNAME    "LuffyWesley"
-#define IO_KEY         "abe26d8d0f0e4eba8ae2b5acbfd08ebc"
+#define IO_USERNAME    ""
+#define IO_KEY         ""
 
-/************************ API Keys Config *******************************/
-const char* weatherKey = ""; // API key for openweathermap (https://openweathermap.org)
+/************************ MQTT Config *******************************/
+#define mqtt_server "mediatedspaces.net"  //this is its address, unique to the server
+#define mqtt_user "hcdeiot"               //this is its server login, unique to the server
+#define mqtt_password "esp8266"           //this is it server password, unique to the server
 
 /******************************* WIFI **************************************/
 

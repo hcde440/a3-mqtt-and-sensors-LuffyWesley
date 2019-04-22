@@ -3,6 +3,7 @@ I am using the following topics for the MQTT server:
 1. Treasure/temperature
 2. Treasure/humidity
 3. Treasure/pressure
+4. Treasure/button
 
 ## Libraries required
 1. DHT sensor library by Adafruit
@@ -15,6 +16,8 @@ I am using the following topics for the MQTT server:
 Download the [MQTT Client](http://mqttfx.jensd.de) to monitor MQTT connections. 
 
 ## Schematic
+### Button
+![Button](images/button.png)
 ### DHT22
 ![DHT22](images/dht22.png)
 ### MPL115A2
